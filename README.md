@@ -11,6 +11,7 @@ and return rate impact before a management review meeting.
 ## Dataset
 - 500 rows of synthetic retail transaction data (2024–2025)
 - 9 columns: order details, category, pricing, discount, region, returns
+- **Note:** Data is programmatically generated within the notebook using `numpy.random.seed(42)` — run the first cell to reproduce it exactly.
 
 ## What I Did
 1. **Data Audit** — identified missing values, wrong dtypes, invalid dates, negative prices
